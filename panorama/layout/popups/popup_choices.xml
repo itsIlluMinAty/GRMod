@@ -13,15 +13,15 @@
 	<snippets>
 		<snippet name="ChoiceEntry">
 			<Button class="PopupButton horizontal-align-left full-width">
-				<Image id="Icon"/>
-						class="vote-option__icon MapIcon"
-						width="68px" 
-						height="68px" 
-						min-width="68px" 
-						min-height="68px" 
+				<Image id="Icon"
+						class="change-map-icon"
+						width="32px" 
+						height="32px" 
+						min-width="32px" 
+						min-height="32px" 
 						scaling="contain"
 						horizontal-align="center"
-						vertical-align="center"
+						vertical-align="center" />
 				<Label id="Name"/>
 			</Button>
 		</snippet>

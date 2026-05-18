@@ -3456,13 +3456,14 @@ Label.NumberOfLines3 .InlineGlyph
     transform: translateY(-22px);	
 }
 
-#Icon,
-.vote-option__icon,
-.MapIcon {
-    width: 28px;
-    height: 28px;
-    min-width: 28px;
-    min-height: 28px;
+.change-map-icon,
+#Icon.change-map-icon,
+.popup-choices #Icon.change-map-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
     horizontal-align: center;
     vertical-align: center;
+	image-rendering: crisp-edges;
 }
