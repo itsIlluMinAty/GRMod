@@ -78,6 +78,10 @@
 				<Button id="InvCraftingBtn" class="">
 					<Label text="#inv_nav_tradeup" />
 				</Button>
+				<Button id="InvEconClear"
+   			 	onactivate="GameInterfaceAPI.ConsoleCommand( 'econ_clear_inventory_images' )">
+				<Label text="Clear Images" />
+				</Button>
 				<Panel class="game-mode-selection-radios-spacer"></Panel>
 				<Button class="content-navbar__tabs--small-image" id="InvSearchBtn"
 						data-type='any'>
