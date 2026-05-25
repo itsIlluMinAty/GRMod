@@ -411,16 +411,6 @@ var InventoryPanel = ( function (){
 				_UpdateCraftingPanelVisibility( true );
 			} );
 
-			var elInvEconClearBtn = elTopRightExtraButtons.FindChild( "InvEconClear" );
-			elInvEconClearBtn.SetPanelEvent( 'onmouseover', function ()
-			{
-				UiToolkitAPI.ShowTextTooltip( elInvEconClearBtn.id, 'Reopen the inventory for it to clear images.' );
-			} );
-			elInvEconClearBtn.SetPanelEvent( 'onmouseout', function ()
-			{
-				UiToolkitAPI.HideTextTooltip();
-			} );
-
 			var elInvSearchBtn = elTopRightExtraButtons.FindChild( "InvSearchBtn" );
 			elInvSearchBtn.SetPanelEvent( 'onactivate', function ()
 			{
@@ -1252,8 +1242,6 @@ var InventoryPanel = ( function (){
 			_UpdatePopup( _SelectedCapabilityInfo.initialItemId, _SelectedCapabilityInfo.capability );
 		}
 	}
-
-
 
 	return {
 		Init: _Init,

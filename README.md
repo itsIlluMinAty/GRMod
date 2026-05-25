@@ -13,7 +13,6 @@
 - Server Browser button is now in the main menu sidebar.
 - Scrollable map list in the change map vote screen.
 - Uniform map icon size in the change map vote screen.
-- Button to clear inventory icons.
 
 ### Map pool changes:
 - Added **Insertion II** and **Pre-Halloween Cobblestone** to the offline Casual and Competitive map pool.
