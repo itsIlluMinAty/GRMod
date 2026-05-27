@@ -1,5 +1,5 @@
 # GRMod, a enhancement package for CS:GO
-
+# Join the Discord!
 [![Discord](https://img.shields.io/discord/1436143382723297350?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/nVFFMC9QyV)
 
 ## Current features:
@@ -12,20 +12,21 @@
 ### UI changes:
 - Removed the CS:GO 360 stats button, News tab and other menu elements that were deprecated when CS:GO intially went offline.
 - Removed Danger Zone Button from the "Practice with Bots" tab due to the gamemode not being functional offline.
+- Modified some UI strings.
 - Server Browser button is now in the main menu sidebar for convience.
 - Scrollable map list in the change map vote screen.
 - Uniform map icon size in the change map vote screen.
 
 ### Map pool changes:
 - Added **Insertion II** and **Pre-Halloween Cobblestone** to the offline Casual and Competitive map pool.
-- Added **Safehouse** to the offline Wingman map pool.
+- Added **Safehouse**, **Elysion**, **Extraction** and **Rialto** to the offline Wingman map pool.
 - Added **Aztec** and **Dust** to offline Casual and Deathmatch map pool.
 
 ## Main Menu
 
 <img width="1920" height="1080" alt="20AA85~1" src="https://github.com/user-attachments/assets/88af9b2c-72c6-4f9f-bc33-89ac1b0ead74" />
-<img width="1920" height="1080" alt="20C53E~1" src="https://github.com/user-attachments/assets/6c8d792e-c969-4374-819e-c7d063b2692c" />
-<img width="1920" height="1080" alt="2003C4~1" src="https://github.com/user-attachments/assets/5709097d-0f66-486a-a942-d510f496d1ff" />
+<img width="1920" height="1080" alt="2050D4~1" src="https://github.com/user-attachments/assets/a443b500-054a-4804-80a9-11ee895cd84d" />
+<img width="1920" height="1080" alt="20A66F~1" src="https://github.com/user-attachments/assets/33e30c6e-e36b-4137-bc07-4a7f16e1c102" />
 <img width="1920" height="1080" alt="20088C~1" src="https://github.com/user-attachments/assets/9ffe92ff-458d-498a-9cae-d0245ef2daf7" />
 
 ## In-game
