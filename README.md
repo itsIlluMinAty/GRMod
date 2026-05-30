@@ -6,7 +6,7 @@
 
 ### csgo_gc:
 - Added csgo_gc to fix the in-game inventory system.
-- The default inventory.txt file now comes with the **Global Offensive Badge** and **CS:GO Music Kit** rather than **Karambit | Fade** by default.
+- The default inventory.txt file now comes with the **Global Offensive Badge**, **CS:GO (Panorama) Music Kit** and **CS:GO (Scaleform) Music Kit** rather than **Karambit | Fade** by default.
 - Added flo's csgo_gc inventory editor with the base install for easily adding skins without an external download.
 
 ### UI changes:
