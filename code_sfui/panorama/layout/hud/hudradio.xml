@@ -1,0 +1,37 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/base.css" />
+		<include src="file://{resources}/styles/hud/hudradio.css" />
+	</styles>
+
+	<CSGOHudRadio hittest="false">
+		                         
+		<Image id="RadioPanelBG" src="file://{images}/hud/radio/radiobg.png" />
+        <Panel id="RadioHeaderBG" />          
+		<Panel id="RadioPanel">
+
+			                                                 
+
+			    
+			    	
+			                    
+				                                                
+				                        
+				                        
+				                        
+			        
+
+			                    
+				                                              
+				                        
+				                        
+				                        
+			        
+
+			   
+			   
+			
+		</Panel>
+
+	</CSGOHudRadio>
+</root>

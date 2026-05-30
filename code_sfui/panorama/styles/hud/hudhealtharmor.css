@@ -1,0 +1,524 @@
+                                          
+@define defaultColor: #ffffff;
+@define yIcon : 1px;
+@define yText : 5px;
+@define yBar : 35px;
+
+CSGOHudHealthArmor Label
+{
+    font-family: Stratum2, 'Arial Unicode MS';
+}
+                                                                      
+.Language_vietnamese CSGOHudHealthArmor Label 
+{
+	font-family: ForceStratum2, 'Arial Unicode MS';
+}
+
+.hud-HA-icon-container
+{
+    x: 15px;
+    y: yIcon;
+    width: 30px;
+    height: 100%;
+	margin: 2px;
+	vertical-align: center;
+}
+
+.hud-HA-text
+{
+    x: 42px;
+    y: yText;
+}
+
+.hud-HA-bar
+{
+    x: 110px;
+    y: yBar;
+}
+
+.hud-HA
+{
+    width: 465px;
+    height: 55px;
+	vertical-align: bottom;
+    opacity: 0.0;
+	transition-property: opacity;
+	transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.survival .hud-HA
+{
+    width: 550px;
+}
+
+.hud-HA.hud-HA--active
+{
+    opacity: 1.0;
+}
+
+
+.hud-HA-bg
+{
+    flow-children:right;                                                                                                                              
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+                           
+}
+
+.hud-HA-bg-h
+{
+                                                                                                                             
+    background-image: url( "file://{images}/hud/hp.png" );
+    background-size: 107% 100%;
+    background-img-opacity: 1.0;
+                 
+    width: 200px;
+    height: 100%;
+    horizontal-align: left;
+}
+
+.hud-HA-bg-a
+{
+     background-image: url( "file://{images}/hud/armor.png" );
+    background-size: 100% 100%;
+    background-img-opacity: 1.0;
+                                                                                                                                                                                  
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    horizontal-align: left;
+}
+
+.hud-HA-main
+{
+    height: 100%;
+    width: fit-children; 
+	vertical-align: center;
+	x: -8px;
+}
+
+.hud-HA-icon
+{
+	horizontal-align: center;
+	vertical-align: middle;
+	-s2-mix-blend-mode: screen;
+	y: 1px;
+	z-index: 100;
+	opacity: 0.6;
+	margin: 2px;
+}
+
+.hud-HA-icon--health
+{
+    width: 20px;
+}
+                                            
+.hud-HA--critical  .hud-HA-bg-h
+{
+    background-image: url( "file://{images}/hud/hpred.png" );
+    background-img-opacity: 0.97; 
+}
+
+.hud-HA-icon--heavy
+{
+    padding-top: 0px;
+    wash-color: defaultColor;
+    visibility: collapse;
+}
+.hud-HA--heavyassaultsuit .hud-HA-icon--heavy
+{
+    visibility: collapse;
+	margin: 2px;
+}
+
+.hud-HA-icon--armor {
+    visibility: visible;
+	height: 20px;
+	-s2-mix-blend-mode: screen;
+	y: 1px;
+	margin: 2px;
+}
+
+.hud-HA--helmet .hud-HA-icon--armor {
+	height: 20px;
+	width: 18px;
+	visibility: collapse;
+	-s2-mix-blend-mode: screen;
+	margin: 2px;
+}
+
+.hud-HA-icon--helmet
+{
+    visibility: collapse;
+	margin: 2px;
+}
+.hud-HA--helmet .hud-HA-icon--helmet
+{
+    visibility: visible;
+}
+ .hud-HA--helmet .hud-HA-icon--helmet {
+	height: 20px;
+	width: 18px;
+	visibility: visible;
+	-s2-mix-blend-mode: screen;
+	y: 1px;
+	margin: 2px;
+}
+ 
+.hud-HA-health
+{
+    height: 100%;
+    padding-right: 10px;
+	transform: translateX( 4px );
+}
+
+
+.hud-HA-armor
+{
+    height: 100%;
+    padding-left: 85px;
+}
+
+.hud-HA-text
+{
+    width: 70px;
+}
+
+.hud-HA-text Label
+{
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    horizontal-align: center;
+                                           
+    text-shadow: 0px 0px 3px 0.0 #00000000;
+    margin-left: 5px;
+                   
+                                   
+    text-overflow: shrink;
+	-s2-mix-blend-mode: SRGBAdditive;
+}
+
+ProgressBar
+{
+    width: 82px;
+	height: 11px;
+    opacity: 0.9;
+	-s2-mix-blend-mode: SRGBAdditive;
+	z-index: 89;
+	margin: 2px;
+	padding: 1px;
+}
+
+
+#HealthBar
+{
+	saturation: 0.001;
+	color: defaultColor;
+}
+
+#ArmorBar
+{
+	saturation: 0.001;
+}
+
+.hud-HA--on-damage #HealthBar
+{
+	saturation: 1.0;
+	brightness: 1.5;
+	color: #ff0000;
+}
+
+.hud-HA-armor--pickup #ArmorBar
+{
+	saturation: 0.001;
+	color: defaultColor;
+}
+
+.hud-HA-bar--health
+{
+	height: 13px;
+	width: 82px;
+	x: 108px;
+	y: 24px;
+	z-index: 89;
+	-s2-mix-blend-mode: SRGBAdditive;
+	margin: 2px;
+}
+
+.hud-HA-bar--armor
+{
+	height: 13px;
+	width: 82px;
+	x: 311px;
+	y: 24px;
+	z-index: 89;
+	-s2-mix-blend-mode: SRGBAdditive;
+	margin: 2px;
+}
+
+.hud-HA-bar-border_health
+{
+	visibility: visible;
+	height: 14px;
+	width: 82px;
+	x: 108px;
+	y: 24px;
+	z-index: 95;
+	margin: 2px;
+}
+
+.hud-HA-bar-border_health_blur
+{
+	visibility: visible;
+	height: 13px;
+	width: 82px;
+	x: 108px;
+	y: 24px;
+	z-index: 95;
+	margin: 2px;
+	box-shadow: -1px -1px 0px 2px #cccccc0A;
+}
+
+.hud-HA-bar-border_armor
+{
+	visibility: visible;
+	height: 14px;
+	width: 82px;
+	x: 311px;
+	y: 24px;
+	z-index: 95;
+	margin: 2px;
+}
+
+.hud-HA-armor--pickup .hud-HA-bar-border_armor
+{
+	visibility: visible;
+	height: 14px;
+	width: 82px;
+	x: 311px;
+	y: 24px;
+	z-index: 95;
+	margin: 2px;
+}
+
+.hud-HA-bar-border_armor_blur
+{
+	visibility: visible;
+	height: 13px;
+	width: 82px;
+	x: 311px;
+	y: 24px;
+	z-index: 95;
+	margin: 2px;
+	box-shadow: -1px -1px 0px 2px #cccccc0A;
+}
+
+.hud-HA-armor--pickup .hud-HA-bar-border_armor_blur
+{
+	visibility: visible;
+	height: 13px;
+	width: 82px;
+	x: 311px;
+	y: 24px;
+	z-index: 95;
+	margin: 2px;
+	box-shadow: -1px -1px 0px 2px #cccccc0A;
+}
+
+.hud-HA--small ProgressBar,
+.hud-HA--small .hud-HA-bar-border_health,
+.hud-HA--small .hud-HA-bar-border_armor,
+.hud-HA--small .hud-HA-bar-border_health_blur,
+.hud-HA--small .hud-HA-bar-border_armor_blur
+{
+    visibility: collapse;
+}
+
+.hud-HA--small .hud-HA-bg-center,
+.hud-HA--small .hud-HA-bg-center-border
+{
+	width: 360px;
+	height: 53px;
+	vertical-align: bottom;
+	horizontal-align: left;
+	margin: 2px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.hud-HA-bg-center-border
+{
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    horizontal-align: left;
+	margin: 2px;
+}
+
+
+.hud-HA--small .hud-HA-armor
+{
+	height: 100%;
+    padding-left: 15px;
+}
+
+.hud-HA--small .hud-HA-bg-h,
+.hud-HA--small .hud-HA-bg-a
+{
+    width: 130px;
+}
+
+.ProgressBarLeft
+{
+	background-color: defaultColor;
+}
+
+.hud-HA--on-damage .hud-HA-bar--health .ProgressBarLeft,
+.hud-HA--critical  .hud-HA-bar--health .ProgressBarLeft
+{
+    background-color: red;
+}
+
+.hud-HA-armor-label
+{
+	font-size: 42px;
+    font-weight: bold;
+    color: defaultColor;
+    letter-spacing: 0px;
+    horizontal-align: center;
+                                           
+    text-shadow: 0px 0px 3px 0.0 #000000DD;
+    margin-left: 5px;
+	x: -20px;
+                   
+                                   
+    text-overflow: shrink;
+	-s2-mix-blend-mode: SRGBAdditive;
+}
+
+.hud-HA-armor--pickup .hud-HA-text .hud-HA-armor-label
+{
+	font-size: 42px;
+    font-weight: bold;
+    color: defaultColor;
+    letter-spacing: 0px;
+    horizontal-align: center;
+                                           
+    text-shadow: 0px 0px 3px 0.0 #000000DD;
+    margin-left: 5px;
+	x: 0px;
+                   
+                                   
+    text-overflow: shrink;
+	-s2-mix-blend-mode: SRGBAdditive;
+}
+
+.hud-HA--helmet .hud-HA-text .hud-HA-armor-label
+{
+	font-size: 42px;
+    font-weight: bold;
+    color: defaultColor;
+    letter-spacing: 0px;
+    horizontal-align: center;
+                                           
+    text-shadow: 0px 0px 3px 0.0 #000000DD;
+    margin-left: 5px;
+	x: 0px;
+                   
+                                   
+    text-overflow: shrink;
+	-s2-mix-blend-mode: SRGBAdditive;
+}
+
+/*
+.hud-HA-armor--pickup .hud-HA-armor
+{
+	animation-name: hud-HA-armor--pickup;
+    animation-duration: 0.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: 0;
+}
+
+@keyframes hud-HA-armor--pickup
+{
+    0% {
+		opacity: 1;
+		brightness: 1;
+    }
+    49% {
+		opacity: 1;
+		brightness: 1;
+		transform: scale3d( 1.0, 1.0, 1.0 );
+    }
+    50% {
+		opacity: 0.5;
+		brightness: 4;
+		transform: scale3d( 1.2, 1.2, 1.2 );
+    }
+    99% {
+		opacity: 0.5;
+		brightness: 2;
+		transform: scale3d( 1.0, 1.0, 1.0 );
+    }
+    100% {
+		opacity: 1;
+		brightness: 1;
+    }
+}
+*/
+
+/*Fix For ProgressBar Border Colors*/
+.csgo-hud--cl-hud-color-0   #HealthBar { wash-color-fast: color-hud-0; }
+.csgo-hud--cl-hud-color-1   #HealthBar { wash-color-fast: color-hud-1; }
+.csgo-hud--cl-hud-color-2   #HealthBar { wash-color-fast: color-hud-2; }
+.csgo-hud--cl-hud-color-3   #HealthBar { wash-color-fast: color-hud-3; }
+.csgo-hud--cl-hud-color-4   #HealthBar { wash-color-fast: color-hud-4; }
+.csgo-hud--cl-hud-color-5   #HealthBar { wash-color-fast: color-hud-5; }
+.csgo-hud--cl-hud-color-6   #HealthBar { wash-color-fast: color-hud-6; }
+.csgo-hud--cl-hud-color-7   #HealthBar { wash-color-fast: color-hud-7; }
+.csgo-hud--cl-hud-color-8   #HealthBar { wash-color-fast: color-hud-8; }
+.csgo-hud--cl-hud-color-9   #HealthBar { wash-color-fast: color-hud-9; }
+.csgo-hud--cl-hud-color-10  #HealthBar { wash-color-fast: color-hud-10; }
+.csgo-hud--cl-hud-color-11  #HealthBar { wash-color-fast: color-hud-11; }
+
+.csgo-hud--cl-hud-color-0  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-0; }
+.csgo-hud--cl-hud-color-1  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-1; }
+.csgo-hud--cl-hud-color-2  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-2; }
+.csgo-hud--cl-hud-color-3  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-3; }
+.csgo-hud--cl-hud-color-4  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-4; }
+.csgo-hud--cl-hud-color-5  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-5; }
+.csgo-hud--cl-hud-color-6  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-6; }
+.csgo-hud--cl-hud-color-7  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-7; }
+.csgo-hud--cl-hud-color-8  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-8; }
+.csgo-hud--cl-hud-color-9  .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-9; }
+.csgo-hud--cl-hud-color-10 .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-10; }
+.csgo-hud--cl-hud-color-11 .hud-HA--helmet #HealthBar { wash-color-fast: color-hud-11; }  
+
+.csgo-hud--cl-hud-color-0  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-0; }
+.csgo-hud--cl-hud-color-1  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-1; }
+.csgo-hud--cl-hud-color-2  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-2; }
+.csgo-hud--cl-hud-color-3  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-3; }
+.csgo-hud--cl-hud-color-4  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-4; }
+.csgo-hud--cl-hud-color-5  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-5; }
+.csgo-hud--cl-hud-color-6  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-6; }
+.csgo-hud--cl-hud-color-7  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-7; }
+.csgo-hud--cl-hud-color-8  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-8; }
+.csgo-hud--cl-hud-color-9  .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-9; }
+.csgo-hud--cl-hud-color-10 .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-10; }
+.csgo-hud--cl-hud-color-11 .hud-HA-armor--pickup #ArmorBar { wash-color-fast: color-hud-11; }
+
+.csgo-hud--cl-hud-color-0  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-0; }
+.csgo-hud--cl-hud-color-1  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-1; }
+.csgo-hud--cl-hud-color-2  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-2; }
+.csgo-hud--cl-hud-color-3  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-3; }
+.csgo-hud--cl-hud-color-4  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-4; }
+.csgo-hud--cl-hud-color-5  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-5; }
+.csgo-hud--cl-hud-color-6  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-6; }
+.csgo-hud--cl-hud-color-7  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-7; }
+.csgo-hud--cl-hud-color-8  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-8; }
+.csgo-hud--cl-hud-color-9  .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-9; }
+.csgo-hud--cl-hud-color-10 .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-10; }
+.csgo-hud--cl-hud-color-11 .hud-HA--helmet #ArmorBar { wash-color-fast: color-hud-11; }
