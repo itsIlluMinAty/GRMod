@@ -1,4 +1,8 @@
 # GRMod, a enhancement package for CS:GO
+
+> [!CAUTION]
+> This repo has been moved over to https://github.com/Global-Retake/GRMod and all future releases will be published there.
+
 # Join the Discord!
 [![Discord](https://img.shields.io/discord/1436143382723297350?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/nVFFMC9QyV)
 
@@ -6,14 +10,13 @@
 
 ### csgo_gc:
 - Added csgo_gc to fix the in-game inventory system.
-- The default inventory.txt file now comes with the **Global Offensive Badge**, **CS:GO (Panorama) Music Kit** and **CS:GO (Scaleform) Music Kit** rather than **Karambit | Fade** by default.
+- The default inventory.txt file now comes with the **Global Offensive Badge** and **CS:GO Music Kit** rather than **Karambit | Fade** by default.
 - Added flo's csgo_gc inventory editor with the base install for easily adding skins without an external download.
 
 ### UI changes:
 - Removed the CS:GO 360 stats button, News tab and other menu elements that were deprecated when CS:GO intially went offline.
 - Removed Danger Zone Button from the "Practice with Bots" tab due to the gamemode not being functional offline.
 - Modified some UI strings.
-- Added an optional Scaleform 4.2-style hud
 - Server Browser button is now in the main menu sidebar for convience.
 - Scrollable map list in the change map vote screen.
 - Uniform map icon size in the change map vote screen.
@@ -43,13 +46,13 @@
 
 ### Manual install (Windows and Linux)
 - Download [CS:GO from Steam](https://store.steampowered.com/app/4465480/CounterStrikeGlobal_Offensive/)
-- Download the latest release from the [releases page](https://github.com/Skysion3/GRMod/releases)
+- Download the latest release for your platform from the [releases page](https://github.com/Skysion3/GRMod/releases)
 - Navigate to the game's installation directory
 - Extract the contents of the downloaded archive to your game directory, replace the files when prompted
 - Launch the game from Steam.
 
 ## Credits:
-* **IlluMinAty** - slightly modified the browserfix ui to have uniform map icons
+* **IlluMinAty** - modified the browserfix ui to have uniform map icons
 * **ThatOneRicsi** - for making the installer
-* **Parker** - for the browserfix ui and for adding a scroll bar to the vote screen (qol gang approved!!!)
-* **Mikko Kokko** - csgo_gc
+* **Parker** - browserfix ui and voting screen scroll bar
+* **Mikko Kokko** and **shashlik226** - csgo_gc
