@@ -1,8 +1,5 @@
 # GRMod, a enhancement package for CS:GO
 
-> [!CAUTION]
-> This repo has been moved over to https://github.com/Global-Retake/GRMod and all future releases will be published there.
-
 # Join the Discord!
 [![Discord](https://img.shields.io/discord/1436143382723297350?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/nVFFMC9QyV)
 
