@@ -20,22 +20,11 @@
 
 ### Map pool changes:
 - Added **Insertion II** and **Pre-Halloween Cobblestone** to the offline Casual and Competitive map pool.
-- Added **Safehouse**, **Elysion**, **Extraction** and **Rialto** to the offline Wingman map pool.
+- Added **Safehouse** and **Rialto** to the offline Wingman map pool.
 - Added **Aztec** and **Dust** to offline Casual and Deathmatch map pool.
 
-## Main Menu
-
-<img width="1920" height="1080" alt="20AA85~1" src="https://github.com/user-attachments/assets/88af9b2c-72c6-4f9f-bc33-89ac1b0ead74" />
-<img width="1920" height="1080" alt="2050D4~1" src="https://github.com/user-attachments/assets/a443b500-054a-4804-80a9-11ee895cd84d" />
-<img width="1920" height="1080" alt="20A66F~1" src="https://github.com/user-attachments/assets/33e30c6e-e36b-4137-bc07-4a7f16e1c102" />
-<img width="1920" height="1080" alt="20088C~1" src="https://github.com/user-attachments/assets/9ffe92ff-458d-498a-9cae-d0245ef2daf7" />
-
-## In-game
-<img width="1920" height="1080" alt="209CC9~1" src="https://github.com/user-attachments/assets/69cdd3f0-c52c-4683-af93-beda3736ab5e" />
-<img width="1920" height="1080" alt="20B9F5~1" src="https://github.com/user-attachments/assets/6a3b63e8-2127-4dc9-88f0-97551e39bea3" />
-
 ## How to install?
-### Recommended: Automatic installer (Windows only)
+### Recommended: Automatic Installer (Windows only)
 - Download the latest release of the installer [here](https://github.com/Global-Retake/GRModInstaller/releases)
 - Open the Installer and follow the steps
 - Click install
