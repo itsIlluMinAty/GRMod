@@ -25,6 +25,7 @@
 
 ## How to install?
 ### Recommended: Automatic Installer (Windows only)
+- Download [CS:GO from Steam](https://store.steampowered.com/app/4465480/CounterStrikeGlobal_Offensive/)
 - Download the latest release of the installer [here](https://github.com/Global-Retake/GRModInstaller/releases)
 - Open the Installer and follow the steps
 - Click install
@@ -40,5 +41,6 @@
 ## Credits:
 * **IlluMinAty** - modified the browserfix ui to have uniform map icons
 * **ThatOneRicsi** - for making the installer
-* **Parker** - browserfix ui and voting screen scroll bar
+* **Parker** - browserfix/gcmm ui and voting screen scroll bar
+* **Slippi** - readme stuff
 * **Mikko Kokko** and **shashlik226** - csgo_gc
