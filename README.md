@@ -15,6 +15,9 @@
 - Removed Danger Zone Button from the "Practice with Bots" tab due to the gamemode not being functional offline.
 - Modified some UI strings.
 - Server Browser button is now in the main menu sidebar for convience.
+- Added a Viewmodel tab to the game settings for convience.
+- Added Scramble Teams button to the call vote screen.
+- Added Clear Inventory Images button to the inventory.
 - Scrollable map list in the change map vote screen.
 - Uniform map icon size in the change map vote screen.
 
