@@ -38,7 +38,7 @@
 				<RadioButton onactivate="SettingsMenuShared.ScrollToId('SettingsCrosshair')" group="SettingsGame">
 					<Label text="#settings_crosshair"/>
 				</RadioButton>
-				<RadioButton class="content-navbar__tabs__btn" onactivate="SettingsMenuShared.ScrollToId(&apos;SettingsViewmodel&apos;)" group="SettingsGame">
+				<RadioButton  onactivate="SettingsMenuShared.ScrollToId('SettingsViewmodel')" group="SettingsGame">
                     <Label text="#settings_viewmodel" />
 				</RadioButton>
 				    
@@ -471,16 +471,6 @@
 							<Label text="#GameUI_No" value="0" id ="switchweaponpickup1"/>
 						</CSGOSettingsEnumDropDown>
 					</Panel>
-					<Panel class="horizontal-separator"/>
-					
-					                                    
-                    <TooltipPanel id="FirstPersonTracers" class="SettingsMenuDropdownContainer" tooltip="#Cstrike_FirstPersonTracers_Desc">
-                        <Label text="#Cstrike_FirstPersonTracers" class="half-width" />
-                        <CSGOSettingsEnumDropDown class="PopupButton White" convar="r_drawtracers_firstperson">
-                            <Label text="#SFUI_Settings_Enabled" value="1" id="firstpersontracers1" />
-                            <Label text="#SFUI_Settings_Disabled" value="0" id="firstpersontracers0" />
-                        </CSGOSettingsEnumDropDown>
-					</TooltipPanel>
 					<Panel class="horizontal-separator"/>
 
 					                                    
