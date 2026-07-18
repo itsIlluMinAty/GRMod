@@ -22,14 +22,14 @@
 - Added a Viewmodel tab to the game settings for convience.
 - Added Scramble Teams button to the call vote screen.
 - Added Clear Inventory Images button to the inventory.
-- Removed Market buttons
+- Removed all Market buttons
 - TV button now opens the Demo Viewer instead of the watch matches and tournaments page
 - Scrollable map list in the change map vote screen.
 - Uniform map icon size in the change map vote screen.
 - Added back the rank profile card. (Rank editable through csgo_gc\config.txt)
 
 ### Map pool changes:
-- Added **Insertion II**, **Pre-Halloween Cobblestone**, **Seaside**, **Turbine** and **Thunder** to the offline Casual and Competitive map pool.
+- Added **Insertion II**, **Pre-Halloween Cobblestone** and **Seaside** to the offline Casual and Competitive map pool.
 - Added **Safehouse** and **Rialto** to the offline Wingman map pool.
 - Added **Aztec** and **Dust** to offline Casual and Deathmatch map pool.
 
