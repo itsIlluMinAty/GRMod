@@ -50,7 +50,6 @@
 								<Label text="#SFUI_Map_de_cache" value="cache" id="ui_mainmenu_bkgnd_movie_cache"/>
 								<Label text="#SFUI_Map_de_cbble" value="cbble" id="ui_mainmenu_bkgnd_movie_cbble"/>
 								<Label text="#SFUI_Map_de_dust2" value="dust2" id="ui_mainmenu_bkgnd_movie_dust2"/>
-								<Label text="#SFUI_Map_dz_frostbite" value="frostbite" id="ui_mainmenu_bkgnd_movie_frostbite"/>  
 								<Label text="#SFUI_Map_cs_insertion2" value="insertion2" id="ui_mainmenu_bkgnd_movie_insertion2"/> 
 								<Label text="#SFUI_Map_de_lake" value="lake" id="ui_mainmenu_bkgnd_movie_lake"/>
 								<Label text="#SFUI_Map_cs_militia" value="militia" id="ui_mainmenu_bkgnd_movie_militia"/>
