@@ -53,4 +53,4 @@
 * **ThatOneRicsi** - for making the installer
 * **Parker** - Voting screen scroll bar and gcmm ui (used until 1.6.3)
 * **Slippi** - readme stuff
-* **Mikko Kokko** and **shashlik226** - csgo_gc
+* **Mikko Kokko** - csgo_gc
