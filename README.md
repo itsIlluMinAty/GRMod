@@ -1,6 +1,4 @@
-# GRMod
-
-An enhancement package for CS:GO.
+# GRMod, an enhancement package for CS:GO.
 
 ![Platform](https://img.shields.io/badge/platform--555555?style=for-the-badge)![Windows](https://img.shields.io/badge/-windows-0078D6?style=for-the-badge)![Linux](https://img.shields.io/badge/-linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Release](https://img.shields.io/github/v/release/itsIlluMinAty/GRMod?style=for-the-badge)
@@ -8,9 +6,6 @@ An enhancement package for CS:GO.
 ![Stars](https://img.shields.io/github/stars/itsIlluMinAty/GRMod?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/itsIlluMinAty/GRMod?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/itsIlluMinAty/GRMod?style=for-the-badge)
-
----
-
 ## Other links
 
 [![Website](https://img.shields.io/badge/website-GlobalRetake.com-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://globalretake.com)
