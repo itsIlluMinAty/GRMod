@@ -1,29 +1,39 @@
-Global Retake Free Use License
+Commons Clause License Condition v1.0
+
+The Software is provided to you by the Licensor under the License, as defined
+below, subject to the following condition.
+
+Without limiting other conditions in the License, the grant of rights under
+the License will not include, and the License does not grant to you, the right
+to Sell the Software.
+
+For purposes of the foregoing, Sell means practicing any or all of the rights
+granted to you under the License to provide to third parties, for a fee or
+other consideration (including without limitation fees for hosting or
+consulting or support services related to the Software), a product or service
+whose value derives, entirely or substantially, from the functionality of the
+Software. Any license notice or attribution required by the License must also
+include this Commons Clause License Condition notice.
+
+Software: GRMod
+License: MIT
+Licensor: Global Retake
+
+MIT License
 
 Copyright (c) 2026 Global Retake
 
-Permission is granted, free of charge, to any person obtaining a copy of this
-software and associated documentation files (the "Software") to use, copy,
-modify, merge, publish, and distribute the Software, subject to the
-conditions below.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the Software), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Conditions
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-1. You must include this license text and the copyright notice in any copy or
-   substantial portion of the Software.
-2. You may distribute the Software, and modified versions of the Software,
-   only at no charge.
-3. You may not sell the Software.
-4. You may not charge money for access to, download of, licensing of, or
-   redistribution of the Software.
-5. You may not include the Software as a paid product, a paid add-on, or a
-   paid bundle where payment is required to receive the Software.
-
-For clarity, this license allows free use, private use, modification, and
-free redistribution. It does not allow selling the Software or charging money
-for copies of it.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
